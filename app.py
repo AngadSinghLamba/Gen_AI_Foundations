@@ -1,5 +1,5 @@
 import streamlit as st
-import nest_asyncio
+import nest_asyncio 
 import logging
 import os
 from typing import List
@@ -14,6 +14,7 @@ from phi.embedder.ollama import OllamaEmbedder
 from phi.vectordb.pgvector import PgVector2
 from phi.storage.assistant.postgres import PgAssistantStorage
 from dotenv import load_dotenv
+
 
 load_dotenv()
 os.getenv("OPENAI_API_KEY")
